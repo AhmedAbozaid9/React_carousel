@@ -1,0 +1,31 @@
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.carousel img {
+  min-width: 100vw;
+  height: 300px;
+  object-fit: cover;
+  transition-duration: 1s ease;
+}
+
+.left-arrow,.right-arrow {
+  font-size: 48px;
+  color: #e1e1e1;
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  transform: translateY(-50%);
+  user-select: none;
+
+}
+.left-arrow {
+  left: 32px;
+}
+.right-arrow {
+  right: 32px;
+}
